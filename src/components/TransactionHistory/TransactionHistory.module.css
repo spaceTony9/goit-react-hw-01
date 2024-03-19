@@ -1,0 +1,23 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+    min-width: 500px;
+    border: 1px solid black;
+}
+
+
+.thead {
+    background-color: black;
+    color: white;
+}
+
+.thread:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.threadItem {
+    padding-left: 50px;
+    text-align: justify;
+    border: 1px solid black;
+}

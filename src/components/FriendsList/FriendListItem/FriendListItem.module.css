@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    flex-basis: calc((100% - 15px) / 5);
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.img {
+    margin-bottom: 10px;
+}
+
+.status {
+    font-size: small;
+    font-weight: lighter;
+    color: green;
+}
+
+.offline {
+    color: red;
+}
