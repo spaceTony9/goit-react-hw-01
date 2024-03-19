@@ -1,7 +1,7 @@
 import css from './FriendListItem.module.css';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
-import FriendsList from '../FriendsList.jsx';
+import FriendsList from '../FriendsList/FriendsList.jsx';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
